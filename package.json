@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "super-chat",
+  "version": "0.1.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "depd": "^2.0.0",
+    "ent": "^0.1.0",
+    "express": "^3.21.2",
+    "socket.io": "^4.7.4"
+  },
+  "author": "Mateo21 <mateo21@email.com>",
+  "description": "Un super Chat temps réel avec socket.io",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "app.js",
+  "license": "ISC"
+}
